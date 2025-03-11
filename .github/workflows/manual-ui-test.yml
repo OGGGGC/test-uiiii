@@ -30,7 +30,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Required UI Test Label
-        uses: mheap/github-action-required-labels@v2
+        uses: mheap/github-action-required-labels@v5
         with:
           labels: "ui-tested ✅"
           mode: exactly
+          count: 1
+
