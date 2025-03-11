@@ -1,0 +1,8 @@
+# 指定 Backend Team 負責 backend 相關程式碼
+backend/* @backend-team
+
+# 指定 Frontend Team 負責 frontend 相關程式碼
+frontend/* @frontend-team
+
+# 指定 DevOps Team 負責基礎架構設定
+infra/* @devops-team
