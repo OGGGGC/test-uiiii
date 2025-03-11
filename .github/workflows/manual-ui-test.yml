@@ -9,8 +9,8 @@ jobs:
     name: Assign UI Test Reviewer
     runs-on: ubuntu-latest
     steps:
-      - name: Assign UI Tester
-        uses: pozil/auto-assign-reviewer@v1
+      - name: Auto-assign Issue
+        uses: pozil/auto-assign-issue@v2.2.0
         with:
           reviewers: "ui-test-team"
 
