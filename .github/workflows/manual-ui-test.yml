@@ -34,4 +34,3 @@ jobs:
         with:
           labels: "ui-tested ✅"
           mode: exactly
-          message: "⚠️ **這個 PR 需要通過人工 UI 測試**（請加上 `ui-tested ✅` 標籤）"
